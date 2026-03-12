@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* Global dark styles fallback */
+:root {
+  background-color: white;
+  color: #111;
+}
+
+:root.dark {
+  background-color: #0f172a;
+  color: #f1f5f9;
+}
