@@ -1,7 +1,7 @@
 // src/services/aiService.js
 import { getAuth } from "firebase/auth";
 
-const BACKEND_URL = "backend/server/generate";
+const BACKEND_URL = "api/generate";
 
 export const generateContent = async ({ prompt, platform, token }) => {
   if (!prompt || !platform) {
