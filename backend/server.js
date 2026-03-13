@@ -31,7 +31,7 @@ const openai = new OpenAI({
 });
 
 // ===== Generate Post =====
-app.post("/generate", async (req, res) => {
+app.post("api/generate", async (req, res) => {
   try {
     // 🔐 Auth
     const authHeader = req.headers.authorization;
